@@ -23,7 +23,9 @@ A simple application to Register Users and login using those credentials
 4. Run the following commands in MySQL Workbench to create the database schema:
    ```
    create database register_login_app;
+   
    use register_login_app;
+   
    create table app_users (
    id int auto_increment primary key,
    appUser_name varchar(100),
