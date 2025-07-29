@@ -24,12 +24,11 @@ A simple application to Register Users and login using those credentials
    ```
    create database register_login_app;
    use register_login_app;
-
-  create table app_users (
-	  id int auto_increment primary key,
-    appUser_name varchar(100),
-    email varchar(100) unique,
-    appUser_passw varchar(255) 
+   create table app_users (
+   id int auto_increment primary key,
+   appUser_name varchar(100),
+   email varchar(100) unique,
+   appUser_passw varchar(255) 
   );
    ```
 
