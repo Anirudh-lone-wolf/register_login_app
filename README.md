@@ -6,7 +6,7 @@ A simple application to Register Users and login using those credentials
    ```
    cd register-login-app/backend
    npm install
-   ```
+   ```https://github.com/Anirudh-lone-wolf/register_login_app/edit/main/README.md
 2. Set Up .env File :
    ```
     DB_HOST=localhost
@@ -31,7 +31,7 @@ A simple application to Register Users and login using those credentials
    appUser_name varchar(100),
    email varchar(100) unique,
    appUser_passw varchar(255) 
-  );
+   );
    ```
 
 5. Run the App:
